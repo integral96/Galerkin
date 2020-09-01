@@ -11,12 +11,12 @@
 
 #define BASE_FUNCTION_COUNT 10
 
-static constexpr std::array<double, 5> omega{0.236926885, 0.478628670, 0.568888889, 0.478628670, 0.236926885};
-static constexpr std::array<double, BASE_FUNCTION_COUNT> X_i{-0.97390, -0.86506,
+static const std::array<double, 5> omega{0.236926885, 0.478628670, 0.568888889, 0.478628670, 0.236926885};
+static const std::array<double, BASE_FUNCTION_COUNT> X_i{-0.97390, -0.86506,
                                                              -0.67940, -0.43339, -0.14887, 0.14887, 0.43339, 0.67940, 0.86506, 0.97390};
-static constexpr std::array<double, BASE_FUNCTION_COUNT> Y_i{-0.97390, -0.86506,
+static const std::array<double, BASE_FUNCTION_COUNT> Y_i{-0.97390, -0.86506,
                                                              -0.67940, -0.43339, -0.14887, 0.14887, 0.43339, 0.67940, 0.86506, 0.97390};
-static constexpr std::array<double, BASE_FUNCTION_COUNT> Z_i{-0.97390, -0.86506,
+static const std::array<double, BASE_FUNCTION_COUNT> Z_i{-0.97390, -0.86506,
                                                              -0.67940, -0.43339, -0.14887, 0.14887, 0.43339, 0.67940, 0.86506, 0.97390};
 
 ///Factorial
